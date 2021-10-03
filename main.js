@@ -2,7 +2,7 @@
 
 
 
-const ingredients = ["Geraspte kaas", "Spinazie", "Knoflook", "Olijfolie", "Lasagne bladeren"];
+// const ingredients = ["Geraspte kaas", "Spinazie", "Knoflook", "Olijfolie", "Lasagne bladeren"];
 
 // console.log(ingredients);
 //
@@ -12,16 +12,37 @@ const ingredients = ["Geraspte kaas", "Spinazie", "Knoflook", "Olijfolie", "Lasa
 
 // console.log(step1);
 
-ingredients[4] = "Volkoren lasagebladen";
+// ingredients[4] = "Volkoren lasagebladen";
+//
+// console.log(ingredients);
+//
+// const ingredientsLength = ingredients.length;
+//
+// console.log(ingredientsLength);
+//
+//
+//
+//
+//
+// const lastIndex = ingredients.length - 1;
+// console.log(lastIndex);
+// console.log(ingredients[lastIndex]);
 
-console.log(ingredients);
 
-const ingredientsLength = ingredients.length;
+let lasagneIngredients = ["Geraspte kaas", "Spinazie", "Knoflook", "Olijfolie", "Lasage bladen", "Ui"];
 
-console.log(ingredientsLength);
-
-const lastIndex = ingredients.length - 1;
-console.log(lastIndex);
-console.log(ingredients[lastIndex]);
+console.log(lasagneIngredients[5]);
 
 
+lasagneIngredients [0] = "Corona kaas";
+console.log(lasagneIngredients);
+
+
+const step1 = "Doe een beetje " + lasagneIngredients[0] + " bij";
+console.log(step1);
+
+const ingredientsLength = lasagneIngredients.length;
+console.log(ingredientsLength -2);
+
+lasagneIngredients [3] = "Kokos olie";
+console.log(lasagneIngredients);
